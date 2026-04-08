@@ -19,6 +19,13 @@ The pillar of Agentic AI. Before an agent can act, it must be able to reason and
 | **3. ReAct Pattern** | The reasoning core: Thought-Action-Observation loops. | [Notebook](./01-Foundation/3.%20ReAct%20Pattern.ipynb) |
 | **4. Agent Cycle** | The structural lifecycle: Observe, Reason, Plan, Act. | [Notebook](./01-Foundation/4.%20Agent%20Cycle.ipynb) |
 
+### [02. Core Components](./02-Core-Components)
+Building the technical engine. Managing tools, APIs, and the structural skeleton of an agent.
+
+| Topic | Description | Code |
+| :--- | :--- | :--- |
+| **1. Tools & Function Calling** | Bridging LLM logic with Python code. Best practices for schemas and parallel calls. | [Notebook](./02-Core-Components/1.%20Tools%20&%20Function%20Calling.ipynb) |
+
 ---
 
 ## 🛠 Prerequisites
@@ -30,7 +37,7 @@ The pillar of Agentic AI. Before an agent can act, it must be able to reason and
 
 ## 🚀 Roadmap
 - [x] **01. Foundation** (Prompting, Context, ReAct, Lifecycle)
-- [ ] **02. Tools & Skills**
+- [x] **02. Core Components** (Tools, Functions, Chains)
 - [ ] **03. Memory & State**
 - [ ] **04. RAG & Knowledge Systems**
 - [ ] **05. Multi-Agent Orchestration**

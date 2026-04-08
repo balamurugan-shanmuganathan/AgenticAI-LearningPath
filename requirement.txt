@@ -4,3 +4,5 @@ python-dotenv
 ipykernel
 pydantic
 langchain-google-genai
+langgraph
+langchain-community
