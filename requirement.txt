@@ -7,3 +7,11 @@ langchain-google-genai
 langgraph
 langchain-community
 langgraph-checkpoint-sqlite
+pypdf
+chromadb
+langchain-chroma
+langchain-experimental
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+rank_bm25
