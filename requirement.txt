@@ -6,3 +6,4 @@ pydantic
 langchain-google-genai
 langgraph
 langchain-community
+langgraph-checkpoint-sqlite

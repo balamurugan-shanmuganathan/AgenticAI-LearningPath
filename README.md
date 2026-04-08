@@ -14,14 +14,13 @@ This repository is a comprehensive, code-first learning journey designed to mast
 ├── 01-Foundation/
 │   ├── 1-PromptEngineering.ipynb
 │   ├── 2-ContextEngineering.ipynb
-│   ├── 3-ReActPattern.ipynb
-│   └── 4-AgentCycle.ipynb
-├── 02-Core-Components/
-│   └── 1-ToolCalling.ipynb
-├── 03-Memory-State/
-│   ├── 1-StatelessMemory.ipynb
-│   ├── 2-StatefulMemory.ipynb
-│   └── 3-PersistentMemory.ipynb
+│   ├── 3-ToolCalling.ipynb
+│   └── 4-ReActPattern.ipynb
+├── 02-Memory-State/
+│   ├── 1-Stateless-vs-Stateful.ipynb
+│   ├── 2-In-Context-Memory.ipynb
+│   ├── 3-External-Memory.ipynb
+│   └── 4-Long-Term-Memory.ipynb
 ├── README.md
 └── requirement.txt
 ```
@@ -33,24 +32,18 @@ The pillar of Agentic AI. Before an agent can act, it must be able to reason and
 | :--- | :--- | :--- |
 | **1. Prompt Engineering** | Mastering instructions, few-shot prompting, and tone control. | [Notebook](./01-Foundation/1-PromptEngineering.ipynb) |
 | **2. Context Engineering** | Managing knowledge, relevance, and information density. | [Notebook](./01-Foundation/2-ContextEngineering.ipynb) |
-| **3. ReAct Pattern** | The reasoning core: Thought-Action-Observation loops. | [Notebook](./01-Foundation/3-ReActPattern.ipynb) |
-| **4. Agent Cycle** | The structural lifecycle: Observe, Reason, Plan, Act. | [Notebook](./01-Foundation/4-AgentCycle.ipynb) |
+| **3. Tool Calling** | Bridging LLM logic with Python code. Best practices for schemas. | [Notebook](./01-Foundation/3-ToolCalling.ipynb) |
+| **4. ReAct Pattern** | The reasoning core: Thought-Action-Observation loops. | [Notebook](./01-Foundation/4-ReActPattern.ipynb) |
 
-### [02. Core Components](./02-Core-Components)
-Building the technical engine. Managing tools, APIs, and the structural skeleton of an agent.
-
-| Topic | Description | Code |
-| :--- | :--- | :--- |
-| **1. Tool Calling** | Bridging LLM logic with Python code. Best practices for schemas and parallel calls. | [Notebook](./02-Core-Components/1-ToolCalling.ipynb) |
-
-### [03. Memory & State](./03-Memory-State)
+### [02. Memory & State](./02-Memory-State)
 The persistence layer. Transitioning from stateless API calls to continuous agentic sessions.
 
 | Topic | Description | Code |
 | :--- | :--- | :--- |
-| **1. Stateless Memory** | Understanding conversation history, buffer memory, and session logic. | [Notebook](./03-Memory-State/1-StatelessMemory.ipynb) |
-| **2. Stateful Memory** | Persistence layers, checkpointers, and thread isolation with LangGraph. | [Notebook](./03-Memory-State/2-StatefulMemory.ipynb) |
-| **3. Persistent Memory** | Advanced patterns: TTL, state overrides, and scaling persistence. | [Notebook](./03-Memory-State/3-PersistentMemory.ipynb) |
+| **1. Stateless vs Stateful** | Core differences, manual history management vs. automated memory. | [Notebook](./02-Memory-State/1-Stateless-vs-Stateful.ipynb) |
+| **2. In-Context Memory** | Managing "Working Memory" within the prompt context buffer. | [Notebook](./02-Memory-State/2-In-Context-Memory.ipynb) |
+| **3. External Memory** | Concept of persistence: Saving history to files or databases. | [Notebook](./02-Memory-State/3-External-Memory.ipynb) |
+| **4. Long-Term Memory** | Conceptual intro to Vector databases and semantic search (RAG). | [Notebook](./02-Memory-State/4-Long-Term-Memory.ipynb) |
 
 ---
 
@@ -58,13 +51,13 @@ The persistence layer. Transitioning from stateless API calls to continuous agen
 - Python 3.9+
 - Google Gemini API Key
 - LangChain Framework
+- LangGraph
 
 ---
 
 ## 🚀 Roadmap
-- [x] **01. Foundation** (Prompting, Context, ReAct, Lifecycle)
-- [x] **02. Core Components** (Tools, Functions, Chains)
-- [x] **03. Memory & State** (Stateless, Stateful, Persistence)
-- [ ] **04. RAG & Knowledge Systems**
-- [ ] **05. Multi-Agent Orchestration**
-- [ ] **06. Eval & Observability**
+- [x] **01. Foundation** (Prompting, Context, Tools, ReAct)
+- [x] **02. Memory & State** (Stateless, Stateful, SQLite Persistence)
+- [ ] **03. RAG & Knowledge Systems**
+- [ ] **04. Multi-Agent Orchestration**
+- [ ] **05. Eval & Observability**
