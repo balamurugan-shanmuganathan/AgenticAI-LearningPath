@@ -14,17 +14,17 @@ The pillar of Agentic AI. Before an agent can act, it must be able to reason and
 
 | Topic | Description | Code |
 | :--- | :--- | :--- |
-| **1. Prompt Engineering** | Mastering instructions, few-shot prompting, and tone control. | [Notebook](./01-Foundation/1.%20Prompt%20Engineering.ipynb) |
-| **2. Context Engineering** | Managing knowledge, relevance, and information density. | [Notebook](./01-Foundation/2.%20Context%20Engineering.ipynb) |
-| **3. ReAct Pattern** | The reasoning core: Thought-Action-Observation loops. | [Notebook](./01-Foundation/3.%20ReAct%20Pattern.ipynb) |
-| **4. Agent Cycle** | The structural lifecycle: Observe, Reason, Plan, Act. | [Notebook](./01-Foundation/4.%20Agent%20Cycle.ipynb) |
+| **1. Prompt Engineering** | Mastering instructions, few-shot prompting, and tone control. | [Notebook](./01-Foundation/1-PromptEngineering.ipynb) |
+| **2. Context Engineering** | Managing knowledge, relevance, and information density. | [Notebook](./01-Foundation/2-ContextEngineering.ipynb) |
+| **3. ReAct Pattern** | The reasoning core: Thought-Action-Observation loops. | [Notebook](./01-Foundation/3-ReActPattern.ipynb) |
+| **4. Agent Cycle** | The structural lifecycle: Observe, Reason, Plan, Act. | [Notebook](./01-Foundation/4-AgentCycle.ipynb) |
 
 ### [02. Core Components](./02-Core-Components)
 Building the technical engine. Managing tools, APIs, and the structural skeleton of an agent.
 
 | Topic | Description | Code |
 | :--- | :--- | :--- |
-| **1. Tools & Function Calling** | Bridging LLM logic with Python code. Best practices for schemas and parallel calls. | [Notebook](./02-Core-Components/1.%20Tools%20&%20Function%20Calling.ipynb) |
+| **1. Tool Calling** | Bridging LLM logic with Python code. Best practices for schemas and parallel calls. | [Notebook](./02-Core-Components/1-ToolCalling.ipynb) |
 
 ---
 
