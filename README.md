@@ -9,6 +9,23 @@ This repository is a comprehensive, code-first learning journey designed to mast
 
 ## 🏗 Repository Structure
 
+```text
+.
+├── 01-Foundation/
+│   ├── 1-PromptEngineering.ipynb
+│   ├── 2-ContextEngineering.ipynb
+│   ├── 3-ReActPattern.ipynb
+│   └── 4-AgentCycle.ipynb
+├── 02-Core-Components/
+│   └── 1-ToolCalling.ipynb
+├── 03-Memory-State/
+│   ├── 1-StatelessMemory.ipynb
+│   ├── 2-StatefulMemory.ipynb
+│   └── 3-PersistentMemory.ipynb
+├── README.md
+└── requirement.txt
+```
+
 ### [01. Foundation](./01-Foundation)
 The pillar of Agentic AI. Before an agent can act, it must be able to reason and manage its environment accurately.
 
@@ -26,6 +43,15 @@ Building the technical engine. Managing tools, APIs, and the structural skeleton
 | :--- | :--- | :--- |
 | **1. Tool Calling** | Bridging LLM logic with Python code. Best practices for schemas and parallel calls. | [Notebook](./02-Core-Components/1-ToolCalling.ipynb) |
 
+### [03. Memory & State](./03-Memory-State)
+The persistence layer. Transitioning from stateless API calls to continuous agentic sessions.
+
+| Topic | Description | Code |
+| :--- | :--- | :--- |
+| **1. Stateless Memory** | Understanding conversation history, buffer memory, and session logic. | [Notebook](./03-Memory-State/1-StatelessMemory.ipynb) |
+| **2. Stateful Memory** | Persistence layers, checkpointers, and thread isolation with LangGraph. | [Notebook](./03-Memory-State/2-StatefulMemory.ipynb) |
+| **3. Persistent Memory** | Advanced patterns: TTL, state overrides, and scaling persistence. | [Notebook](./03-Memory-State/3-PersistentMemory.ipynb) |
+
 ---
 
 ## 🛠 Prerequisites
@@ -38,7 +64,7 @@ Building the technical engine. Managing tools, APIs, and the structural skeleton
 ## 🚀 Roadmap
 - [x] **01. Foundation** (Prompting, Context, ReAct, Lifecycle)
 - [x] **02. Core Components** (Tools, Functions, Chains)
-- [ ] **03. Memory & State**
+- [x] **03. Memory & State** (Stateless, Stateful, Persistence)
 - [ ] **04. RAG & Knowledge Systems**
 - [ ] **05. Multi-Agent Orchestration**
 - [ ] **06. Eval & Observability**
