@@ -96,5 +96,5 @@ Coordinating multiple agents into specialized teams. Mastering state machines an
 - [x] **01. Foundation** (Prompting, Context, Tools, ReAct)
 - [x] **02. Memory & State** (Stateless, Stateful, SQLite Persistence)
 - [x] **03. RAG & Knowledge Systems** (Semantic Chunking, Vector DBs, Multi-Query)
-- [/] **04. Agent Orchestration** (State Machines, Supervisor, Multi-Agent Teams)
+- [x] **04. Agent Orchestration** (State Machines, Supervisor, Multi-Agent Teams)
 - [ ] **05. Eval & Observability**
