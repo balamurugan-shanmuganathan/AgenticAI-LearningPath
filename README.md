@@ -35,8 +35,10 @@ This repository is a comprehensive, code-first learning journey designed to mast
 │   └── 05-Hierarchical-Orchestration.ipynb
 ├── 05-Agentic-Design-Patterns/
 │   ├── 01-Reflection-Pattern.ipynb
-│   ├── 02-Plan-and-Execute-Pattern.ipynb
-│   └── 03-Self-Healing-Pattern.ipynb
+│   ├── 02-Refraction-Pattern.ipynb
+│   ├── 03-Self-Healing-Pattern.ipynb
+│   ├── 04-Human-in-the-Loop.ipynb
+│   └── 05-Plan-and-Execute-Pattern.ipynb
 ├── README.md
 └── requirement.txt
 ```
@@ -88,9 +90,11 @@ Bridging the gap between basic orchestration and production-grade architectures.
 
 | Topic | Description | Code |
 | :--- | :--- | :--- |
-| **1. Reflection Pattern** | Autonomous refinement loops focusing on self-correction. | [Notebook](./05-Agentic-Design-Patterns/01-Reflection-Pattern.ipynb) |
-| **2. Plan & Execute** | Breaking down complex queries into a structured plan before execution. | [Notebook](./05-Agentic-Design-Patterns/02-Plan-and-Execute-Pattern.ipynb) |
-| **3. Self-Healing** | Patterns for agents to autonomously recover from execution or tool errors. | [Notebook](./05-Agentic-Design-Patterns/03-Self-Healing-Pattern.ipynb) |
+| **1. Reflection Pattern** | Internal self-correction and drafting loops. | [Notebook](./05-Agentic-Design-Patterns/01-Reflection-Pattern.ipynb) |
+| **2. Refraction Pattern** | Evaluating past trajectories and external environment failures. | [Notebook](./05-Agentic-Design-Patterns/02-Refraction-Pattern.ipynb) |
+| **3. Self-Healing** | Autonomous recovery from execution or tool error tracebacks. | [Notebook](./05-Agentic-Design-Patterns/03-Self-Healing-Pattern.ipynb) |
+| **4. Human-in-the-Loop** | Graph breakpoints requiring explicit human approval. | [Notebook](./05-Agentic-Design-Patterns/04-Human-in-the-Loop.ipynb) |
+| **5. Plan & Execute** | Breaking down complex queries into structured checklists before execution. | [Notebook](./05-Agentic-Design-Patterns/05-Plan-and-Execute-Pattern.ipynb) |
 
 ---
 
@@ -110,5 +114,5 @@ Bridging the gap between basic orchestration and production-grade architectures.
 - [x] **02. Memory & State** (Stateless, Stateful, SQLite Persistence)
 - [x] **03. RAG & Knowledge Systems** (Semantic Chunking, Vector DBs, Multi-Query)
 - [x] **04. Agent Orchestration** (State Machines, Supervisor, Multi-Agent Teams)
-- [ ] **05. Agentic Design Patterns** (Reflection, Plan & Execute, Self-Healing)
+- [ ] **05. Agentic Design Patterns** (Reflection, Refraction, HITL, Plan & Execute)
 - [ ] **06. Eval & Observability**
