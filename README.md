@@ -39,6 +39,11 @@ This repository is a comprehensive, code-first learning journey designed to mast
 │   ├── 03-Self-Healing-Pattern.ipynb
 │   ├── 04-Human-in-the-Loop.ipynb
 │   └── 05-Plan-and-Execute-Pattern.ipynb
+├── 06-Eval-Observability/
+│   ├── 01-Introduction-to-Evaluation.ipynb
+│   ├── 02-Observability-with-LangSmith.ipynb
+│   ├── 03-Trajectory-Evaluation.ipynb
+│   └── 04-Automated-Benchmarking.ipynb
 ├── README.md
 └── requirement.txt
 ```
@@ -96,6 +101,16 @@ Bridging the gap between basic orchestration and production-grade architectures.
 | **4. Human-in-the-Loop** | Graph breakpoints requiring explicit human approval. | [Notebook](./05-Agentic-Design-Patterns/04-Human-in-the-Loop.ipynb) |
 | **5. Plan & Execute** | Breaking down complex queries into structured checklists before execution. | [Notebook](./05-Agentic-Design-Patterns/05-Plan-and-Execute-Pattern.ipynb) |
 
+### [06. Eval & Observability](./06-Eval-Observability)
+Measuring agent performance and debugging complex multi-step reasoning trajectories.
+
+| Topic | Description | Code |
+| :--- | :--- | :--- |
+| **1. Introduction to Eval** | Understanding LLM-as-a-judge and heuristic evaluation metrics. | [Notebook](./06-Eval-Observability/01-Introduction-to-Evaluation.ipynb) |
+| **2. LangSmith Observability** | Tracing multi-agent interactions, tool calls, and latency. | [Notebook](./06-Eval-Observability/02-Observability-with-LangSmith.ipynb) |
+| **3. Trajectory Evaluation** | Assessing the reasoning path of an agent across multiple steps. | [Notebook](./06-Eval-Observability/03-Trajectory-Evaluation.ipynb) |
+| **4. Benchmarking** | Creating and running automated test suites for continuous improvement. | [Notebook](./06-Eval-Observability/04-Automated-Benchmarking.ipynb) |
+
 ---
 
 ## 🛠 Prerequisites
@@ -114,5 +129,5 @@ Bridging the gap between basic orchestration and production-grade architectures.
 - [x] **02. Memory & State** (Stateless, Stateful, SQLite Persistence)
 - [x] **03. RAG & Knowledge Systems** (Semantic Chunking, Vector DBs, Multi-Query)
 - [x] **04. Agent Orchestration** (State Machines, Supervisor, Multi-Agent Teams)
-- [ ] **05. Agentic Design Patterns** (Reflection, Refraction, HITL, Plan & Execute)
+- [x] **05. Agentic Design Patterns** (Reflection, Refraction, HITL, Plan & Execute)
 - [ ] **06. Eval & Observability**
