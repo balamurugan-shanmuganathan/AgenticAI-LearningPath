@@ -9,45 +9,6 @@ This repository is a comprehensive, code-first learning journey designed to mast
 
 ## 🏗 Repository Structure
 
-```text
-.
-├── 01-Foundation/
-│   ├── 01-Prompt-Engineering.ipynb
-│   ├── 02-Context-Engineering.ipynb
-│   ├── 03-Tool-Calling.ipynb
-│   └── 04-ReAct-Pattern.ipynb
-├── 02-Memory-State/
-│   ├── 01-Stateless-vs-Stateful.ipynb
-│   ├── 02-In-Context-Memory.ipynb
-│   ├── 03-External-Memory.ipynb
-│   └── 04-Long-Term-Memory.ipynb
-├── 03-RAG-Knowledge-Systems/
-│   ├── 01-Introduction-to-RAG.ipynb
-│   ├── 02-Chunking-Strategies.ipynb
-│   ├── 03-Vector-Storage-Essentials.ipynb
-│   ├── 04-Retrieval-Optimization.ipynb
-│   └── 05-Agentic-RAG-Patterns.ipynb
-├── 04-Agent-Orchestration/
-│   ├── 01-Single-Agent-State-Machine.ipynb
-│   ├── 02-Sequential-Multi-Agent-Handoffs.ipynb
-│   ├── 03-Multi-Agent-Supervisor.ipynb
-│   ├── 04-Collaborative-Research-Team.ipynb
-│   └── 05-Hierarchical-Orchestration.ipynb
-├── 05-Agentic-Design-Patterns/
-│   ├── 01-Reflection-Pattern.ipynb
-│   ├── 02-Refraction-Pattern.ipynb
-│   ├── 03-Self-Healing-Pattern.ipynb
-│   ├── 04-Human-in-the-Loop.ipynb
-│   └── 05-Plan-and-Execute-Pattern.ipynb
-├── 06-Eval-Observability/
-│   ├── 01-Introduction-to-Evaluation.ipynb
-│   ├── 02-Observability-with-LangSmith.ipynb
-│   ├── 03-Trajectory-Evaluation.ipynb
-│   └── 04-Automated-Benchmarking.ipynb
-├── README.md
-└── requirement.txt
-```
-
 ### [01. Foundation](./01-Foundation)
 The pillar of Agentic AI. Before an agent can act, it must be able to reason and manage its environment accurately.
 
@@ -130,4 +91,4 @@ Measuring agent performance and debugging complex multi-step reasoning trajector
 - [x] **03. RAG & Knowledge Systems** (Semantic Chunking, Vector DBs, Multi-Query)
 - [x] **04. Agent Orchestration** (State Machines, Supervisor, Multi-Agent Teams)
 - [x] **05. Agentic Design Patterns** (Reflection, Refraction, HITL, Plan & Execute)
-- [ ] **06. Eval & Observability**
+- [x] **06. Eval & Observability**
